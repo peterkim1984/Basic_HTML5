@@ -1,0 +1,31 @@
+body {
+	background: white;
+}
+
+
+img#logo{
+	display: block;
+	margin: auto;
+
+}
+
+#site-title {
+  font-size: 22px;
+  text-align: center;
+}
+
+nav ul li {
+
+  display: inline;
+  background-color: #B8E2F2;
+  
+
+}
+
+nav ul li a{
+  color: #4C94BA;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
