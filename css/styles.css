@@ -1,25 +1,27 @@
 body {
-	background: white;
+  background: white;
   font-family: "Helvetica Neue";
   padding: 30px;
 }
 
 
 img#logo{
-	display: block;
-	margin: auto;
+  display: block;
+  margin: auto;
 
 }
 
 #site-title {
   font-size: 22px;
   text-align: center;
+  line-height: 40px;
 }
 
 nav ul li {
 
   display: inline;
   background-color: #B8E2F2;
+
   
 
 }
@@ -105,13 +107,14 @@ article div.articlebody  {
 }
 
 article div.articlebody p {
-  padding: 20px;
+  padding: 20px 20px 0px 20px;
   font-size: 12px;
 }
 
 div#tablecontainer {
   padding-left:20px;
   padding-right:20px;
+   margin-top: 20px;
 }
 
 thead {
@@ -120,6 +123,7 @@ thead {
   color: #BCBCBC;
   line-height: 24px;
   text-align: left;
+
 }
 
 tbody {
@@ -137,9 +141,79 @@ th,td {
   padding-left: 5px;
 }
 
+article div.articleheader h3 {
+  font-size: 17px;
+  color: #717571;
+  padding-bottom: 5px;
+}
+
+ul {
+
+  padding-left: 40px;
+  
+}
+div.articlebody ul li {
+  list-style-type: disc;
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+ol {
+  padding-left: 40px
+}
+
+ul li ol li {
+  list-style-type: decimal;
+
+}
+
+div.form-row {
+  font-size: 14px;
+}
+
+form#contact-form {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-right: 25px;
+
+}
+
+input#email_input {
+  width: 100%;
+  line-height: 24px;
+  margin-bottom: 20px;
+ 
+}
+
+textarea#message_area {
+  width: 100%;
+}
+
+div.form-left {
+  float: left;
+  width: 50%;
+  padding-bottom: 20px;
+}
+
+div.form-right { 
+  float: left;
+  width: 50%;
+  padding-bottom: 20px;
+
+}
+
+div select {
+  width: 100%;
+  margin-top: 20px;
+
+}
+
+button {
+  margin-top: 20px;
+}
 
 
-
-
-
-
+div ul {
+  padding-top: 12px;
+  padding-bottom: 8px;
+}
